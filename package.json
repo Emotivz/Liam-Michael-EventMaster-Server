@@ -1,0 +1,17 @@
+{
+  "name": "liam-michael-eventmaster-server",
+  "version": "1.0.0",
+  "description": "backend server for Event Master app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Liam & Michael",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2"
+  }
+}
