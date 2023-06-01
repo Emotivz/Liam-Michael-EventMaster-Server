@@ -19,6 +19,12 @@ router.get("/", (req, res) => {
   res.status(200).json(shortEventListData);
 });
 
-router.get("/:eventId");
+router.get("/:eventId", (req, res) => {
+  const singleEvent = eventsData.find(
+    (event) => event.id === req.params.eventId
+  );
+
+  res.json(singleEvent);
+});
 
 module.exports = router;
