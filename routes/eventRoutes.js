@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const eventsData = require("../data/events.json");
+const crypto = require("crypto");
 
 //routes
 
@@ -25,6 +26,27 @@ router.get("/:eventId", (req, res) => {
   );
 
   res.json(singleEvent);
+});
+
+router.post("/", (req, res) => {
+  const newEvent = {
+    id: crypto.randomUUID(),
+    title: req.body.title,
+    host: "John Doe",
+    date: req.body.date,
+    address: req.body.address,
+    phoneNumber: req.body.phoneNumber,
+    email: req.body.email,
+    image: "insert image here",
+    details: req.body.details,
+    attending: 0,
+  };
+
+  // add new event to JSON
+  eventsData.push(newEvent);
+
+  //send confirmation that its been added
+  res.status(201).json(newEvent);
 });
 
 module.exports = router;
