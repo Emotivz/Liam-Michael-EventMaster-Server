@@ -7,7 +7,7 @@ const eventRoutes = require("./routes/eventRoutes.js");
 const cors = require("cors");
 
 app.use(cors());
-// app.use(express.json);
+app.use(express.json());
 
 app.use("/events", eventRoutes);
 
