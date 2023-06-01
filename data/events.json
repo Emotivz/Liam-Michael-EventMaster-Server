@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6ae5a66b-a518-4d5f-a328-919d878e2de5",
+    "title": "Dickens Summer Weekend 2023",
+    "host": "visit medway",
+    "date": 1686391200,
+    "address": "Rochester Castle Gardens, Castle Hill, Rochester ME1 1SW",
+    "phoneNumber": "+44 7700 900877",
+    "email": "murilosouza@gmail.com",
+    "image": "../files/dickens.jpg",
+    "details": "We are excited to bring the Dickens Summer Weekend to you this Summer in collaboration with the Medway River Lit festival! 🎉 We have a number of exciting events taking place across the whole weekend so that the event matches your great expectations. Including: //n🎩Dickensian parades & performances //n🎠Victorian children’s fun fair rides //n☕Victorian tea tent & food stalls //n🎪Outdoor games & craft tents //n🎶 Live music & so much more //n🏰 Located in the breathtaking Rochester castle gardens & surrounding areas.",
+    "attending": 1328
+  },
+  {
+    "id": "3b6f1a52-b869-4b81-ba9a-6bf5eb359830",
+    "title": "Wild Wednesdays",
+    "host": " MAD PRG",
+    "date": 1687982400,
+    "address": "Chapeau Rouge Prague, Jakubská 2, 110 00 Staré Město, Czechia",
+    "phoneNumber": "+420 725 501 000 ",
+    "email": "hello@MADPRG.COM",
+    "image": "../files/wild-wednesday.jpg",
+    "details": "WILD WEDNESDAYS, ARE YOU WILD ENOUGH? 😈🔥 The WILDEST party meets the MOST UNDERGROUND CLUB IN CZECH REPUBLIC!! Mascots, international DJs, confetti explosions, good music (Hip Hop, Latin, Techno and Tech House) and food giveaways.EVERY WEDNESDAY AT CHAPEAU ROUGE.",
+    "attending": 291
+  },
+  {
+    "id": "c153bb59-1c4c-4328-bd02-e4219024224e",
+    "title": "Old School Hip-Hop Outdoor Summer BBQ - London 2023",
+    "host": "Gin & Juice",
+    "date": 1688151600,
+    "address": "Studio 338, 338 Boord St, London SE10 0PF",
+    "phoneNumber": "+44 7894 553 938",
+    "email": "yo@ginandjuiceuk.com",
+    "image": "../files/gin-juice.jpg",
+    "details": "After 2 SOLD OUTS shows in London in 2022, we are going BIGGER & BETTER for you this Summer!☀️ Get ready for the Old School Hip-Hop Outdoor Summer BBQ! The biggest old school hip-hop brand in the UK bringing together those who wanna get taken back to the 80s & 90s era of hip-hop! This is truly one for the old school hip-hop heads!",
+    "attending": 348
+  },
+  {
+    "id": "4f2562d7-8ff8-4013-b29d-be16df24f921",
+    "title": "The ABBA Boat Party",
+    "host": "Disco Wonderland",
+    "date": 1685703600,
+    "address": "The Dutch Master, Tower Millennium Pier, Lower Thames St, London EC3N 4DT",
+    "phoneNumber": "+44 7700 900309",
+    "email": "logistics@discowonderland.club",
+    "image": "../files/abbaboatparty.jpg",
+    "details": "🚢💃AHOY Dancing Queens!💃🚢 //n💫Gimme Gimme Gimme The ABBA Boat Party💫 //nYou heard us right! This summer of 2023 we are setting sail on the River Thames, London on a glittery disco cruise! And YOU are invited! What better way is there to appreciate ABBA? ✨//nWe guarantee you Non-Stop ABBA bangers, our decked out disco boat (with a bar of course!) and the best boat ride of your life! Take in the spectacular views London has on offer such as the London Eye & The houses of Parliment with a drink in hand and your best friends by your side as we boogie away into the night. //nWe have a limited capacity so tickets will fly out, grab yours now to avoid missing out on the most epic ABBA experience. 😍 //nIt's time to pull out your flares and maybe that cheeky sailors hat you've got stashed in your wardrobe! We'll see you there! 🎉",
+    "attending": 45
+  }
+]
