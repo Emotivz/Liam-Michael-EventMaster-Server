@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const eventsData = require("../data/events.json");
 const crypto = require("crypto");
+const PORT = process.env.PORT;
 
 //routes
 
@@ -14,7 +15,7 @@ router.get("/", (req, res) => {
       title: event.title,
       date: event.date,
       host: event.host,
-      image: event.image,
+      image: `http://localhost:${PORT}/${event.image}`,
     };
   });
   res.status(200).json(shortEventListData);
@@ -37,7 +38,7 @@ router.post("/", (req, res) => {
     address: req.body.address,
     phoneNumber: req.body.phoneNumber,
     email: req.body.email,
-    image: "insert image here",
+    image: "https://placehold.jp/100x100.png",
     details: req.body.details,
     attending: 0,
   };
