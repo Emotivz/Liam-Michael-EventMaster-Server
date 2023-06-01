@@ -6,7 +6,6 @@ const eventsData = require("../data/events.json");
 
 // GET list of events
 // This route can be used for home page
-//rename eventd. Can't use event as this is a keyword
 router.get("/", (req, res) => {
   const shortEventListData = eventsData.map((event) => {
     return {
@@ -19,5 +18,7 @@ router.get("/", (req, res) => {
   });
   res.status(200).json(shortEventListData);
 });
+
+router.get("/:eventId");
 
 module.exports = router;
